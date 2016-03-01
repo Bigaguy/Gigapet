@@ -12,6 +12,8 @@
 		01557A321C850CC50031F210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01557A301C850CC50031F210 /* Main.storyboard */; };
 		01557A341C850CC50031F210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01557A331C850CC50031F210 /* Assets.xcassets */; };
 		01557A371C850CC50031F210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01557A351C850CC50031F210 /* LaunchScreen.storyboard */; };
+		01557A3F1C8519540031F210 /* DragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01557A3E1C8519540031F210 /* DragImage.swift */; };
+		01557A411C854D410031F210 /* MonsterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01557A401C854D410031F210 /* MonsterImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		01557A331C850CC50031F210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01557A361C850CC50031F210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01557A381C850CC50031F210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01557A3E1C8519540031F210 /* DragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImage.swift; sourceTree = "<group>"; };
+		01557A401C854D410031F210 /* MonsterImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				01557A331C850CC50031F210 /* Assets.xcassets */,
 				01557A351C850CC50031F210 /* LaunchScreen.storyboard */,
 				01557A381C850CC50031F210 /* Info.plist */,
+				01557A3E1C8519540031F210 /* DragImage.swift */,
+				01557A401C854D410031F210 /* MonsterImage.swift */,
 			);
 			path = Gigapet;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01557A411C854D410031F210 /* MonsterImage.swift in Sources */,
 				01557A2F1C850CC50031F210 /* ViewController.swift in Sources */,
+				01557A3F1C8519540031F210 /* DragImage.swift in Sources */,
 				01557A2D1C850CC50031F210 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
